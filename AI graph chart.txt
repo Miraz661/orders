@@ -6,4 +6,4 @@
 6. Map
 7. Heat map
 
-***Try to implement this graphs using python refer to "Visual Capitalist"***
+***Try to implement this graphs using python refer to "Visual Capitalist (https://www.visualcapitalist.com/)"***
