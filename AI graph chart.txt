@@ -5,3 +5,5 @@
 5. Scatterd plot
 6. Map
 7. Heat map
+
+***Try to implement this graphs using python refer to "Visual Capitalist"***
