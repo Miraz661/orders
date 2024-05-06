@@ -1,0 +1,7 @@
+1. Line chart
+2. Box plot
+3. Pie chart
+4. Histogram
+5. Scatterd plot
+6. Map
+7. Heat map
