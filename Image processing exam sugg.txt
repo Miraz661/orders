@@ -1,1 +1,3 @@
-Properities of histogram ***
+***Properities of histogram ***
+Definition of histogram equalization
+CDF funtion definition
