@@ -7,3 +7,47 @@
 7. Heat map
 
 ***Try to implement this graphs using python refer to "Visual Capitalist (https://www.visualcapitalist.com/)"***
+
+
+#include <iostream>
+#include <sstream>
+using namespace std;
+int convertToDate(string date) {
+    int day, month, year;
+    stringstream ss(date);
+    char ch;
+    ss >> day >> ch >> month >> ch >> year;
+    return year * 365 + month * 30 + day;
+}
+
+int main() {
+    int T;
+    cin >> T;
+    cin.ignore();
+    for (int caseNum = 1; caseNum <= T; ++caseNum) {
+        string current_date, birth_date;
+        getline(cin, current_date);
+        getline(cin, birth_date);
+
+        int current_days = convertToDate(current_date);
+        int birth_days = convertToDate(birth_date);
+
+        cout << "Case #" << caseNum << ": ";
+
+        if (birth_days > current_days) {
+            cout << "Invalid birth date" << endl;
+        } else {
+            int age_years = (current_days - birth_days) / 365;
+
+            if (age_years > 130) {
+                cout << "Check birth date" << endl;
+            } else if (current_days == birth_days) {
+                cout << "0" << endl;
+            } else {
+                cout << age_years << endl;
+            }
+        }
+    }
+    return 0;
+}
+
