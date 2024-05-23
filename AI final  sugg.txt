@@ -1,0 +1,45 @@
+1. What is convex optimization? Show that the cost function for linear regression must be convex.-------10
+	
+	Ans: --> Optimization is a process of finding solution that is neither the heighest nor the lowest, rather which is the best.
+	     --> Convex optimization is all about optimizing a convex function .
+	     --> Gradiant descent is a way of optimizing convex functions.
+	     --> For linear regression, the cost function is needed to be convex.
+		 Prof: Let's assume a regression function f(x) = mx, for a partivular dataset which involves only one independent feature x & one dependent target y.
+	  Now define the cost functions:
+	   [1] Let's first assume our cost function as a linear function C(m).
+	     Now, cost for each data point i, c(xi) = f(xi) - yi.
+	
+	     ***Provide a example graph***"Graph title: difference between the expected result & real result."
+
+	     So, cost function, C(m) = sum(c(xi))
+				     = sum(f(xi)-yi)
+				     = sum(mxi-yi)
+				     = m sum(xi) - sum(yi)
+	     Now, let's define sum(xi) = Cx & sum(yi) = Cy where both the values are constant. So, finally we get,
+				 C(m) = mCx - Cy --------(i) which is a linear function.
+	     Now, dC(m)/dm = Cx
+	     if we want to find the optimum value for m, let's assume d/dm C(m) = 0
+								      Cx = 0. But, Cx is positive for values xi ER+. Thus, the application doesn't hold true for all values.
+	  [2] Now let's assume C(m) as a polynomial function. For that we define c(xi) = sqr(f(xi) - yi)
+										So, C(m) = sum(c(xi))
+											 = sum(sqr(f(xi) - yi))
+											 = sum(sqr(mxi - yi))
+											 = sum[sqr(m)sqr(xi) - 2mxiyi + sqr(yi)]
+											 = sqr(m)sum(sqr(xi)) - 2m sum(xiyi) + sum(sqr(yi))
+		Now, let's assume sum(sqr(xi) = C(sqr(x)), sum(xiyi) = Cxy & sum(sqr(yi) = C(sqr(y)) and all of them are constant.
+		So, C(m) = sqr(m)C(sqr(x) - 2mCxy + C(sqr(y)).a convex funtion.
+		Now, d/dm C(m) = 2mC(sqr(x)) - 2Cxy.
+		For finding a optimum value of m,
+			d/dm C(m) = 0;
+			=> 2mC(sqr(x)) - 2Cxy = 0
+			m = Cxy / C(sqr(x)) which is promising.
+		So, for a promision learning the cost function for linear regression must be convex.
+
+
+2. Describe the global threats of AI and how we can tackel them. --------------10
+	Ans: "We want a master we can easily control"___ Slavoi Zizek.
+	   The global threats of AI are two folds.They are: (i) Apparant and inevitable job crisis. (ii) Existential crisis.
+	(i) Apparant and inevitable job crisis: Rapid growth of self reproducing AGI poses significant job crisis including: a. Massive job layoff.(General speculation)
+															     b. Increased job number with decreased salary(Daren Acemoglu,MIT)
+															     c. Job induced depression.
+		 
