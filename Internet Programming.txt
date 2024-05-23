@@ -1,0 +1,15 @@
+Language basics:
+                -Variable
+                -Looping
+                -if--else
+User defined function
+Arrays: - indexed
+        - Associative
+        - Multidimensional
+PHP include and require statement
+String function
+File: read, write.
+OOP concepts: class and methods.
+Working with database: - Connecting to the database.
+                       - Insert, Update, Delete.
+                       - Built in function.
