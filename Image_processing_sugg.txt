@@ -1,0 +1,27 @@
+1. Definition of image inhancement.
+2. Types of image inhancement techniche in DIP.
+3. Definition of Negative and positive image.
+4. Math on image negative.
+5. Types of image transformation explain the chatagories of point transformation in special domain.
+6. Definition of logarithm and inverse logarithm transformation.
+7. What is histogram.
+8. Explain the properties of histogram.
+9. Histogram math.
+10. Explain the fourier transformation with mathmetical anotaions.
+11. Consider an 8-level 64 *64 (math).
+12. Definition of histogram matching.
+13. Special filtering.
+14. Distingush between mask and unmask filtering.
+15. Smoothing spatial filtering math.
+16. Defference between gray level slicing and frequence level slicing.
+17. What is frequence domain filtering.
+18. Deffenence between correlation and convolution.
+19. Write down the steps of frequence domain filtering.
+
+
+
+Assignment
+
+1. What is segmentation. Why image segmentation is needed. Disadvantages of image segmentation.
+2. Defintion of edge detection. Types of edge detection algorithm.
+3. Canny edge detection algorithm steps.
