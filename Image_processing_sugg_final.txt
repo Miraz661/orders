@@ -1,6 +1,22 @@
 1. Definition of image inhancement.
+   Ans: Image enhancement is a process that improves the     
+   quality of the image for a specific application
 2. Types of image inhancement techniche in DIP.
 3. Definition of Negative and positive image.
+   Negative image : A negative image is a photographic or         digital image in which the colors and brightness values are 
+   inverted from their original values. In a grayscale image, 
+   this means that the intensity levels are reversed: what was 
+   black becomes white, and what was white becomes black. For 
+   color images, each color channel (red, green, and blue) is 
+   inverted.
+
+   Positive image : A positive image is a standard 
+   representation of an image where the colors and brightness 
+   values match the real-world scene or the original image 
+   captured by a camera. It is the direct opposite of a 
+   negative image. In a positive image, white areas are 
+   represented as white, black areas as black, and all other 
+   colors are displayed in their true form.
 4. Math on image negative.
 5. Types of image transformation explain the chatagories of point transformation in special domain.
 6. Definition of logarithm and inverse logarithm transformation.
