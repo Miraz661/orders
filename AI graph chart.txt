@@ -51,3 +51,22 @@ int main() {
     return 0;
 }
 
+
+<body>
+  <table border='1'>
+    <tr>
+      <td>1</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td rowspan=2>2</td>
+      <td colspan=2>5</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      
+      <td>7</td>
+    </tr>
+  </table>
+
